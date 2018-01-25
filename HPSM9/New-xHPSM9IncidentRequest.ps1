@@ -110,9 +110,9 @@ $IncidentInstanceType.ContactGUID = $ContactGUID
 #endregion
 
 #region - Contact
-$ContactGUID  = New-Object ($NameSpace + ".StringType")
-$ContactGUID.Value = "chendrayan.exchange@hotmail.com"
-$IncidentInstanceType.Contact = $Contact
+$Contact  = New-Object ($NameSpace + ".StringType")
+$Contact.Value = "chendrayan.exchange@hotmail.com"
+$IncidentInstanceType = $Contact
 #endregion
 
 #region - ContactLocation
